@@ -1,0 +1,14 @@
+//while loop
+#include<stdio.h>
+int main () {
+    int sum=0;
+    int i=1;//start
+    while(i<=100) { //stop
+        printf("%d\n",i);
+        i++;//step
+        sum +=i;
+    }
+    printf("The sum is %d",sum);
+    return 0;
+}
+    
